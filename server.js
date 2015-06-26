@@ -4,7 +4,6 @@ var app = express();
 
 var path = require('path');
 var bodyParser = require('body-parser');
-
 var filter = require('./filter.js');
 
 app.set('views', path.join(__dirname, 'views'));
