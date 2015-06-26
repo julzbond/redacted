@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 Input Form
+  form(id="input",action="/output",method="POST")
+    input(type="text", name="inputText", placeholder = "Enter your text here.")
+    input(type="submit")
